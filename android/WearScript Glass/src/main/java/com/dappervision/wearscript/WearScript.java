@@ -6,6 +6,9 @@ import android.webkit.JavascriptInterface;
 import android.webkit.WebView;
 
 import com.dappervision.wearscript.activities.MainActivity;
+import com.dappervision.wearscript.core.Log;
+import com.dappervision.wearscript.core.Utils;
+import com.dappervision.wearscript.dataproviders.DataPoint;
 import com.dappervision.wearscript.events.ChannelSubscribeEvent;
 import com.dappervision.wearscript.events.ChannelUnsubscribeEvent;
 import com.dappervision.wearscript.events.SendEvent;
